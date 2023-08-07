@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pagina principala</title>
+
+    <style>
+    :root{
+          --blue: #6495ed;
+          --white: #faf0e6;
+          --red: #ff0000;
+          --green: #008000;
+          --gray: #808080;
+          --black: #000000;
+          --lime: #00ff00;
+    }
+
+    .despre_academie{
+        color: var(--blue);
+        background-color: var(--white);
+
+    }
+    h2{
+        color: var(--red);
+        border-bottom: 2px solid #1e90ff;
+        position: sticky;
+        top: 0;
+        background-color: aquamarine;
+    }
+    
+    h1{
+        color: var(--red);
+        background-color: var(--gray);
+        width: 50%;
+        text-transform: uppercase;
+        position: relative;
+        left: 250px;
+        top: -10px;
+        border-bottom: 2px solid var(--black);
+    }
+
+    ::first-letter{
+        text-transform: uppercase;
+    }
+
+    a{
+        color: var(--green);
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: var(--lime);
+        text-decoration: underline;
+    }
+
+    p:first-of-type{
+        color: var(--red);
+    }
+    p:nth-child(4){
+        color: var(--red);
+    }
+    p:last-of-type{
+        color: var(--red);
+    }
+
+    footer{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        width: 300px;
+        border: 2px solid var(--lime);
+        background-color: var(--white);
+    }
+    
+    
+    </style>
+
+</head>
+<body>
+
+    <header class="navigatie">
+        <nav>
+            <li> <a href="../pages/contact.html"> contact </a></li> 
+            <li> <a href="../pages/register.html"> register </a></li>
+            <li> <a href="../pages/login.html"> login </a></li>
+            <li> <a href="../pages/blog.html"> blog </a></li>
+        </nav>
+    </header>
+
+    <hr>
+
+    <h1>academia fc molima
+        <img src="../assets/img/logo academie.jpg" alt="overview" title="academie" style="width:70px;height:40px;"></h1> 
+    
+
+    <section>
+
+        <header class="despre_academie">
+            <h2><i>despre academie</i></h2>
+            <p>academia 'fc molima' este cel mai grandios proiect al fotbalulului romanesc.</p> 
+            <p>intinsa pe o suprafata de patruzeci de mii de mp in apropierea orasului metalurgia, academia 'fc molima' 
+               se compune din mai multe zone de activitate, si anume: terenuri de joc si antrenament si corpuri de 
+               cladire cu diferite functiuni.</p>
+            <p>toate terenurile au gazon natural si sunt intretinute prin folosirea unor sisteme de irigatie de ultima
+               generatie.</p>
+            <p>in orice perioada a anului, academia 'fc molima' organizeaza riguroase aciuni de selectii pentru ca,
+               pana la urma, unul din scopurile <br>principale ale academiei este producerea de jucatori pentru fotbalul de 
+               inalta performanta.</p> 
+            <p>de altfel, pentru faptul ca academia a functionat inca din start pe principii sanatoase, 
+               rezultatele n-au intarziat sa apara. in ultimii ani s-au obtinut numeroase titluri nationale, iar media <br>anuala
+               a jucatori trimisi catre loturile nationale a depasit douazeci de jucatori/sezon.</p>      
+              
+            <img src="../assets/img/academie.jpg" alt="overview" title="academie" style="width:300px;height:250px;">
+            
+        </header>
+
+    </section>
+
+    <br>
+
+    <footer>
+            <b> Copyright &copy; 2023-2024 Andrei Cotea  </b>
+    </footer>
+    
+
+</body>
+</html>
